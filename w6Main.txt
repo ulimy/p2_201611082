@@ -1,0 +1,40 @@
+@startuml
+
+title Leap Year
+
+start
+
+:user input year;
+if ((year %4==0) and (year %100!=0 or year %400==0)) then (yes)
+    :print yes;
+else (no)
+    :print no;
+endif
+
+stop
+
+@enduml
+
+
+
+@startuml
+
+title High Low Game
+
+start
+
+:random number(1,200);
+:input number;
+if (random number > number)
+    :print high;
+elseif (random number < number)
+    :print low;
+elseif (random number = number)
+    :print yes;
+else;
+    :print error;
+endif
+
+stop
+
+@enduml
