@@ -28,3 +28,6 @@ def lab7():
     
 def main():
     lab7()
+    
+if _name_=="_main_":
+    main()
