@@ -19,15 +19,16 @@ def drawSquareFrom():
         t1.goto(tracks[i])
     return tracks
 
-def lab7():
-    mytrack=drawSquareAtSave(100,(0,0))
-    print (mytrack)
-    t1.home()
-    t1.clear()
-    drawSquareFrom()
-    
+def lab7b():
+    mytrack1=drawSquareAtSave(100,(0,0))
+    print (mytrack1)
+
+def lab7c():
+    mytrack2=drawSquareFrom()
+
 def main():
-    lab7()
+    lab7b()
+    lab7c()
     
 if _name_=="_main_":
     main()
