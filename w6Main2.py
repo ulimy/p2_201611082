@@ -15,3 +15,6 @@ def lab6():
     
 def main():
     lab6()
+    
+if _name_=="_main_": 
+    main() 
